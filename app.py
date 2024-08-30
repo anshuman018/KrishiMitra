@@ -376,7 +376,7 @@ def TwelveMonthsForecast(name):
         x = datetime(y, m, 1)
         x = x.strftime("%b %y")
         crop_price.append([x, round((wpis[i]* base[name.capitalize()]) / 100, 2) , round(change[i], 2)])
-   # print("forecasr", wpis)
+   # print("forecast", wpis)
     x = datetime(max_year,max_month,1)
     x = x.strftime("%b %y")
     max_crop = [x, round(max_value,2)]
